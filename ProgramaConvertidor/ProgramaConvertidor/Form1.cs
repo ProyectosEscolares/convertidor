@@ -27,7 +27,8 @@ namespace ProgramaConvertidor
         {
             OpenFileDialog abrir = new OpenFileDialog();
 
-            abrir.Filter="csv";
+            abrir.Filter="csv|.csv";
+            abrir.ShowDialog();
 
         }
     }
