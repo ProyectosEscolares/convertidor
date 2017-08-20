@@ -27,8 +27,7 @@ namespace ProgramaConvertidor
         {
             OpenFileDialog abrir = new OpenFileDialog();
 
-            abrir.Filter="csv";
-
+            abrir.Filter= "Mapa de bits|*.bmp";
         }
     }
 }
