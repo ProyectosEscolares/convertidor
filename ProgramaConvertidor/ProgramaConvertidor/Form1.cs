@@ -26,8 +26,11 @@ namespace ProgramaConvertidor
         private void btnAbrir_Click(object sender, EventArgs e)
         {
             OpenFileDialog abrir = new OpenFileDialog();
+            abrir.Filter="csv|.csv";
+            abrir.ShowDialog();
 
-            abrir.Filter= "Mapa de bits|*.bmp";
+
+            ruta.Text += abrir.FileName;
         }
     }
 }
